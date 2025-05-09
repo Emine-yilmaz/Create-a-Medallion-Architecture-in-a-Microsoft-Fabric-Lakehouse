@@ -28,8 +28,7 @@ Before working with data in Fabric, you need to create a workspace with Fabric c
 4.  Navigate to the workspace settings and enable the **Data model editing** preview feature. This will enable you to create relationships between tables in your lakehouse using a Power BI semantic model.
     *Note: You may need to refresh the browser tab after enabling the preview feature.*
 
-    ![Enable Data Model Editing Preview Feature](docs/images/enable_data_model_editing.png)
-    *Note: Replace `docs/images/enable_data_model_editing.png` with an actual screenshot if creating a live repository.*
+   
 
 ### 2. Create a Lakehouse and Upload Data to Bronze Layer
 
@@ -48,8 +47,7 @@ Now that you have a workspace, it’s time to create a data lakehouse for the da
 
     *After the files have been uploaded, select the `bronze` folder; and verify that the files have been uploaded, as shown here:*
 
-    ![Bronze folder with uploaded files](docs/images/bronze_folder_files.png)
-    *Note: Replace `docs/images/bronze_folder_files.png` with an actual screenshot if creating a live repository.*
+  
 
 ### 3. Transform Data and Load to Silver Delta Table
 
@@ -198,8 +196,6 @@ Now that you have data in your silver layer, you can use the SQL analytics endpo
 
 1.  Navigate back to your workspace and notice that you now have several items listed. Select the `Sales SQL analytics endpoint` to open your lakehouse in the SQL analytics endpoint view.
 
-    ![Sales SQL Analytics Endpoint](docs/images/sales_sql_analytics_endpoint.png)
-    *Note: Replace `docs/images/sales_sql_analytics_endpoint.png` with an actual screenshot if creating a live repository.*
 
 2.  Select **New SQL query** from the ribbon, which will open a SQL query editor. Note that you can rename your query using the **…** menu item next to the existing query name in the lakehouse explorer pane.
 
@@ -214,8 +210,7 @@ Now that you have data in your silver layer, you can use the SQL analytics endpo
     ```
     *This query calculates the total sales for each year in the `sales_silver` table. Your results should look like this:*
 
-    ![Total Sales by Year Query Result](docs/images/total_sales_by_year_result.png)
-    *Note: Replace `docs/images/total_sales_by_year_result.png` with an actual screenshot if creating a live repository.*
+   
 
 4.  Next you’ll review which customers are purchasing the most (in terms of quantity). Paste the following query into the query editor and select **Run**:
 
@@ -570,8 +565,6 @@ In your workspace, you can now use the gold layer to create a report and analyze
 
     *This will open the semantic model in Fabric where you can create relationships and measures, as shown here:*
 
-    ![Semantic Model View with Gold Tables](docs/images/semantic_model_view.png)
-    *Note: Replace `docs/images/semantic_model_view.png` with an actual screenshot if creating a live repository.*
 
     *From here, you or other members of your data team can create reports and dashboards based on the data in your lakehouse. These reports will be connected directly to the gold layer of your lakehouse, so they’ll always reflect the latest data.*
 
